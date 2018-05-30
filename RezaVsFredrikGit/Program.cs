@@ -12,6 +12,7 @@ namespace RezaVsFredrikGit
         {
             
             string superstring = "first and second string, without the second string";
+            Console.WriteLine("Fredrik");
             Console.WriteLine(superstring);
             string st1 = "first string";
             string st2 = "yooo hooo git";
