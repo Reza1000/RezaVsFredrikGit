@@ -13,6 +13,10 @@ namespace RezaVsFredrikGit
             
             string superstring = "first and second string, without the second string";
             Console.WriteLine(superstring);
+            string st1 = "first string";
+            string st2 = "yooo hooo git";
+
+            Console.WriteLine(st1 +" "+ st2);
         }
 
 
@@ -31,5 +35,11 @@ namespace RezaVsFredrikGit
             return input;
         }
 
+        static int Factorial(int num) {
+            if (num <= 0) {
+                return 0;
+            }
+            return num + Factorial(num - 1);
+        }
     }
 }
