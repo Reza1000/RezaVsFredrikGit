@@ -11,5 +11,11 @@ namespace RezaVsFredrikGit
         static void Main(string[] args)
         {
         }
+
+
+        static void NoGoodMetod()
+        {
+            int noUse = 0;
+        }
     }
 }
