@@ -18,5 +18,11 @@ namespace RezaVsFredrikGit
         {
             int noUse = 0;
         }
+
+        static string TextWrite(string input)
+        {
+            Console.WriteLine(input);
+        }
+
     }
 }
