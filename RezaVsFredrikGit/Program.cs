@@ -10,6 +10,7 @@ namespace RezaVsFredrikGit
     {
         static void Main(string[] args)
         {
+            string st = "first string";
         }
 
 
