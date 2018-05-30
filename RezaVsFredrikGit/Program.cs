@@ -10,7 +10,9 @@ namespace RezaVsFredrikGit
     {
         static void Main(string[] args)
         {
-            string st = "first string";
+            
+            string superstring = "first and second string, without the second string";
+            Console.WriteLine(superstring);
         }
 
 
@@ -21,7 +23,12 @@ namespace RezaVsFredrikGit
 
         static string TextWrite(string input)
         {
-            Console.WriteLine(input);
+            return input;
+        }
+
+        static int Number(int input)
+        {
+            return input;
         }
 
     }
