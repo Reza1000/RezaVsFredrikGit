@@ -25,7 +25,14 @@ namespace RezaVsFredrikGit
         static string TextWrite(string input)
         {
             Console.WriteLine(input);
+            return input;
         }
 
+        static int Factorial(int num) {
+            if (num <= 0) {
+                return 0;
+            }
+            return num + Factorial(num - 1);
+        }
     }
 }
