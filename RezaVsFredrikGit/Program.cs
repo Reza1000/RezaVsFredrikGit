@@ -16,6 +16,7 @@ namespace RezaVsFredrikGit
             Console.WriteLine(superstring);
             string st1 = "first string";
             string st2 = "yooo hooo git";
+            string st3 = "efter branch";
 
             Console.WriteLine(st1 +" "+ st2);
         }
