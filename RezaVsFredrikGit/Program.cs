@@ -10,7 +10,10 @@ namespace RezaVsFredrikGit
     {
         static void Main(string[] args)
         {
-            string st = "first string";
+            string st1 = "first string";
+            string st2 = "yooo hooo git";
+
+            Console.WriteLine(st1 +" "+ st2);
         }
 
 
